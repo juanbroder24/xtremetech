@@ -29,25 +29,7 @@ if (isset($_POST['zona'])) {
   <link rel="icon" type="image/x-icon" href="../assets/IMG/favicon-xtremetech.ico">
   <title>XtremeTech</title>
   <link rel="stylesheet" href="../assets/css/bootstrap.css">
-   <style>
-    /* Estilo para el fondo de la página */
-    body {
-      background-image: url('../assets/IMG/muyguemes.jpg');
-      background-size: cover; /* Ajusta la imagen para que cubra toda el área */
-      background-repeat: no-repeat; /* Evita la repetición de la imagen */
-      background-position: center center; /* Centra la imagen */
-      background-attachment: fixed; /* Evita el desplazamiento de la imagen */
-      height: 100vh; /* Establece la altura de la página al 100% del viewport */
-      margin: 0; /* Elimina el margen por defecto del body */
-      padding: 0; /* Elimina el padding por defecto del body */
-      background-color: rgba(255, 255, 255, 0.8); /* Agrega una capa de color semitransparente */
-      filter: hue-rotate(20deg) saturate(150%); /* Aplica filtros de color */
-    }
-	.dropdown-item:hover {
-      background-color: #D9534F; /* Color de fondo del botón en hover */
-      color: white; /* Color del texto del botón en hover */
-    }
-  </style>
+  <link rel="stylesheet" href="../assets/css/Style.css">
 </head>
 <body>
 

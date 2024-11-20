@@ -50,7 +50,7 @@ if(isset($_POST['login'])){
 $conn->close();
 ?>
 
-<!DOCTYPE html>
+çç
 <html>
 <head>
     <meta charset="UTF-8">

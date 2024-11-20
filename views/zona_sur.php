@@ -15,7 +15,7 @@ if (isset($_POST['zona'])) {
       header("Location: zona_sur.php");
       exit();
   }
-}
+}       
 ?>
 
 <!DOCTYPE html>

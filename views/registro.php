@@ -54,52 +54,7 @@ $conn->close();
      <link rel="shortcut icon" type="image/x-icon" href="../assets/IMG/favicon-xtremetech.ico">
     <title>XtremeTech</title>
     <link rel="stylesheet" href="../assets/css/bootstrap.css">
-    <style>
-    /* Estilo para el fondo de la página */
-    body {
-      /* Estilo para el fondo de la página */
-      background-color: #000000;
-      height: 100vh; /* Establece la altura de la página al 100% del viewport */
-      margin: 0; /* Elimina el margen por defecto del body */
-      padding: 0; /* Elimina el padding por defecto del body */
-      color: #ffffff; /* Establece el color del texto a blanco */
-
-    /* Estilo para los botones */
-    .btn-danger {
-      background-color: #D9534F;
-      border-color: #D9534F;
-    }
-
-    .btn-danger:hover {
-      background-color: #C9302C;
-      border-color: #B92C28;
-    }
-
-    .btn-danger:focus, .btn-danger.focus {
-      box-shadow: 0 0 0 0.25rem rgba(217, 83, 79, 0.5);
-    }
-
-    .btn-danger.disabled, .btn-danger:disabled {
-      background-color: #D9534F;
-      border-color: #D9534F;
-    }
-
-    .btn-danger:not(:disabled):not(.disabled):active, .btn-danger:not(:disabled):not(.disabled).active,
-    .show > .btn-danger.dropdown-toggle {
-      background-color: #B92C28;
-      border-color: #AC2925;
-    }
-
-    .btn-danger:not(:disabled):not(.disabled):active:focus, .btn-danger:not(:disabled):not(.disabled).active:focus,
-    .show > .btn-danger.dropdown-toggle:focus {
-      box-shadow: 0 0 0 0.25rem rgba(217, 83, 79, 0.5);
-    }
-.dropdown-item:hover {
-      background-color: #D9534F; /* Color de fondo del botón en hover */
-      color: white; /* Color del texto del botón en hover */
-    }
-     }
-  </style>
+    <link rel="stylesheet" href="../assets/css/Style.css">
 </head>
  <!-- Encabezado con menú desplegable -->
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
